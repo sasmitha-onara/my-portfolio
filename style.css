@@ -50,3 +50,15 @@ p {
 .contact a{
     color: #2563eb;
 }
+.projects {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.projects p{
+    background: transparent;
+    color: #333;
+    padding: 0;
+    margin-top: 8px;
+}
