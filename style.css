@@ -79,3 +79,7 @@ p {
     padding: 4px;
     margin: 8px ;
 }
+body.dark {
+    background: #1a1a1a;
+    color: #f0f0f0;
+}
