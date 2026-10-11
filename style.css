@@ -65,3 +65,17 @@ p {
 .projects h3{
     color: #0076fd;
 }
+.practise {
+    background: rgb(165, 129, 129);
+    padding: 20px;
+    border-radius: 12px;
+}
+.practise h2 {
+    color: #0076fd;
+}
+.practise p{
+    background: transparent;
+    color: #333;
+    padding: 4px;
+    margin: 8px ;
+}
