@@ -3,6 +3,9 @@ let count = 0;
 const countEl = document.querySelector('#count');
 const increaseBtn = document.querySelector('#increase');
 const plusBln = document.querySelector('#plus');
+const minusBtn = document.querySelector('#minus');
+const stepInput = document.querySelector('#stepinput');
+const addStepBtn = document.querySelector('#addStep');
 
 increaseBtn.addEventListener('click', () => { 
     count = count + 1;
@@ -24,6 +27,16 @@ resetBtn.addEventListener('click',() => {
 plusBln.addEventListener('click' , () => {
     count=count+5;
     countEl.textContent = count;
+    updateCounter();
+});
+minusBtn.addEventListener('click',() =>{
+    count = count-5;
+    countEl.textContent =count;
+    updateCounter();
+})
+addStepBtn.addEventListener('click', () => {
+    const amount = Number(stepInput.value);
+    count = count + amount;
     updateCounter();
 });
 function updateCounter() {
